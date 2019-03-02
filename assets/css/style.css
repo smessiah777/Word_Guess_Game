@@ -1,0 +1,38 @@
+body {
+  color: #ffffff;
+  background-color: black;
+  /* background-image: url(../images/wolfandcub.jpg);
+  background-image: cover; */
+}
+
+.content {
+  background-color: black;
+  height: 100vh;
+}
+
+h1,
+h2 {
+  color: red;
+  text-align: center;
+  border-bottom: white;
+}
+p {
+  font-size: 30px;
+  text-align: center;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#sub-title {
+  border-bottom: gray;
+}
+
+#game-img {
+  width: 100%;
+  margin: 0 0 100px 0;
+}

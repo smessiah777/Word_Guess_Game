@@ -58,7 +58,7 @@ _Arrays_
 *div to show letters guessed right
 \*div to display the wins
 
-#JS code for fucntionality
+#Game Functionality Step By Step
 *OnkeyUp to start the game
 *OnKeyUp if else statement. if matches one letter in game word populates in correct space. if else subtract from remaining
 *key.event to subtract from number of guesses allowed

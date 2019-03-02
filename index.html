@@ -11,34 +11,54 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Document</title>
+    <title>Shogun Assassin Word Guess Game</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container content">
       <header class="row">
-        <div class="col-md-12">
-          <h1>header</h1>
-          <img src="" alt="" />
+        <div class="col-md-10">
+          <img
+            id="logo"
+            src="./assets/images/shogun-assassin-title.jpg"
+            alt=""
+          />
+          <div class="row">
+            <div class="col-md-12">
+              <h1 id="sub-title">WORD GUESS GAME</h1>
+            </div>
+          </div>
         </div>
       </header>
+
+      <div class="row">
+        <div class="col-md-12">
+          <button type="button" id="start" class="btn btn-danger">
+            START GAME
+          </button>
+        </div>
+      </div>
+      <div class="container"></div>
       <div class="row">
         <div id="incorrect-letter" class="col-md-4"><h2>Guessed Wrong</h2></div>
-        <div id="guesses-remaining" class="col-md-4">
+        <div class="col-md-4">
           <h2>Guess Remaining</h2>
+          <p id="guesses-remaining"></p>
         </div>
         <div id="score" class="col-md-4"><h2>Score</h2></div>
       </div>
 
       <div class="row">
-        <div id="game-img" class="col-md-12">
-          <h2>Game Image</h2>
-          <img src="" alt="" />
+        <div class="col-md-12">
+          <!-- <h2>Game Image</h2> -->
+          <img id="game-img" src="./assets/images/wolfandcub.jpg" alt="" />
         </div>
       </div>
 
       <div class="row">
         <h2>Answers</h2>
-        <div id="correct-letter" id class="col-md-12"></div>
+        <div id class="col-md-12">
+          <ul id="word-display"></ul>
+        </div>
       </div>
 
       <!-- <div id="correctLetter"></div>-->
