@@ -16,11 +16,12 @@
   <body>
     <div class="container content">
       <header class="row">
-        <div class="col-md-10">
+        <div class="col-md-12">
           <img
             id="logo"
             src="./assets/images/shogun-assassin-title.jpg"
-            alt=""
+            class="img-fluid"
+            alt="Responsive image"
           />
           <div class="row">
             <div class="col-md-12">
@@ -32,7 +33,11 @@
 
       <div class="row">
         <div class="col-md-12">
-          <button type="button" id="start" class="btn btn-danger">
+          <button
+            type="button"
+            id="start"
+            class="btn btn-danger btn-block d-flex justify-content-center"
+          >
             START GAME
           </button>
         </div>
@@ -48,16 +53,22 @@
       </div>
 
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6">
           <!-- <h2>Game Image</h2> -->
-          <img id="game-img" src="./assets/images/wolfandcub.jpg" alt="" />
+          <img
+            id="game-img"
+            src="./assets/images/wolfandcub.jpg"
+            class="img-fluid"
+            alt="Responsive image"
+          />
         </div>
       </div>
 
       <div class="row">
         <h2>Answers</h2>
         <div id class="col-md-12">
-          <ul id="word-display"></ul>
+          <p id="prompt"></p>
+          <p id="word-display"></p>
         </div>
       </div>
 
